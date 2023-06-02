@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.yellow{
+    color: #F0A83E;
+}
+
+.brown{
+    color: #3C2313;
+}
+
+.black-label{
+    background-color: #222222;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35px;
+}
+
+.lang-money{
+    display: flex;
+}
+
+.yellow-label{
+    background-color: #F0A83E;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.yellow-label img{
+    width: 250px;
+}
+
+.yellow-label ul{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.principal-banner{
+    height: 600px;
+    background-image: url("/img/slider.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.principal-title{
+    text-align: center;
+    margin-right: 30px;
+}
+
+.principal-title h1{
+    background-color: white;
+    display: inline;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.products-title{
+    text-align: center;
+    margin: 20px;
+}
+
+.products-title p{
+    font-size: 40px;
+
+}
+
+.products-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.products-list article{
+    text-align: center;
+}
+
+
+.main-products-paw{
+    font-size: 100px;
+    margin: 10px;
+}
